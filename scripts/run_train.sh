@@ -1,6 +1,8 @@
 #!/bin/bash
 set -u
 
+export PYTHONPATH=$(pwd)
+
 DSET=${1:-simple}
 
 GPU=${2:-0}
