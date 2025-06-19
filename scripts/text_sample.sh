@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export PYTHONPATH=$(pwd)
 
 MODEL_NAME=$1
 # dir of MODEL_NAME
